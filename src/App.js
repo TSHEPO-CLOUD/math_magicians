@@ -4,6 +4,11 @@ import Calculator from './components/Calculator';
 import './components/Calculator.css';
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
   render() {
     return <Calculator />;
   }
