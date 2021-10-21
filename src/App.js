@@ -1,14 +1,8 @@
-/* eslint-disable max-classes-per-file, react/prefer-stateless-function */
-import React from 'react';
-import Calculator from './components/Calculator';
-import './components/Calculator.css';
+import React from "react";
+import Calculator from "./components/Calculator";
+import "./components/Calculator.css";
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
   render() {
     return <Calculator />;
   }
