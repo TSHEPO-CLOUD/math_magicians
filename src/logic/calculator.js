@@ -67,3 +67,32 @@ if (buttonName === '=') {
 
   return {};
 }
+
+if (buttonName === '+/-') {
+ if (obj.next) {
+   return { next: (-1 * parseFloat(obj.next)).toString() };
+ }
+ if (obj.total) {
+   return { total: (-1 * parseFloat(obj.total)).toString() };
+ }
+ return {};
+}
+
+if (obj.operation) {
+ return {
+   total: operate(obj.total, obj.next, obj.operation),
+   next: null,
+   operation: buttonName,
+ };
+}
+
+if (!obj.next) {
+ return { operation: buttonName };
+}
+
+return {
+ total: obj.next,
+ next: null,
+ operation: buttonName,
+};
+}
