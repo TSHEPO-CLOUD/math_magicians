@@ -1,3 +1,4 @@
+/* eslint-disable react/prefer-stateless-function, quotes */
 import React from 'react';
 import Calculator from './components/Calculator';
 import './components/Calculator.css';
