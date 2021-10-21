@@ -20,3 +20,15 @@ class Calculator extends React.Component {
 
     return display || '0';
   };
+
+  render() {
+    return (
+      <div className="calculator">
+        <p className="calculator-result">{this.displayResult()}</p>
+        <div className="calculator-buttons">
+          <button
+            name="AC"
+            type="button"
+            onClick={(e) => this.handleClick(e.target.name)}
+            className="grey"
+          >
