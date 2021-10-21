@@ -13,14 +13,14 @@ export default function operate(numberOne, numberTwo, operation) {
     return one.times(two).toString();
   }
   if (operation === '÷') {
-   try {
-     return one.div(two).toString();
-   } catch {
-     return 'Error!';
-   }
- }
- if (operation === '%') {
-   return one.mod(two).toString();
- }
- throw Error(`Unknown operation '${operation}'`);
+    try {
+      return one.div(two).toString();
+    } catch {
+      return 'Error!';
+    }
+  }
+  if (operation === '%') {
+    return one.mod(two).toString();
+  }
+  throw Error(`Unknown operation '${operation}'`);
 }

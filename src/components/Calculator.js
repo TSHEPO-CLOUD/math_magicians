@@ -1,4 +1,3 @@
-
 import React from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculator';
@@ -32,7 +31,7 @@ class Calculator extends React.Component {
             onClick={(e) => this.handleClick(e.target.name)}
             className="grey"
           >
-             AC
+            AC
           </button>
           <button
             name="+/-"
