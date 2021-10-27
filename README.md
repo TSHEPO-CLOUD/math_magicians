@@ -10,32 +10,46 @@
 
 > In this project, I continue with the development of the Math Magicians app. You will develop a React component that will hold the core functionality: a calculator.
 
+
+
+
+> This is a calculator that solves advanced problems in Physics, Mathematics.
+
+
 ## Built With
 
 - ReactJS
 - Css
 
+
 ## Getting Started
-
-In the project directory, you can run:
-
-### `npm start`
-
-$ git clone https://github.com/TSHEPO-CLOUD/math_magicians/tree/Components
-
-$ cd <folder>
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 To get a local copy up and running follow these simple example steps.
 
-### Usage
+### Setup
 
-- npm run start
+```
+git clone https://github.com/TSHEPO-CLOUD/math_magicians/tree/full-website
+cd ./math_magicians
+```
+
+### Install
+
+```
+npm install
+```
+
+### To Run it
+
+```
+npm start
+```
+
+### Build
+
+```
+npm run build
+```
 
 ## Authors
 
