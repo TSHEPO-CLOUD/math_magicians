@@ -1,35 +1,35 @@
 .title {
- font-size: 36px;
+  font-size: 36px;
 }
 
 h1 {
- text-align: center;
+  text-align: center;
 }
 
 nav {
- background-color: darkgoldenrod;
- padding: 2rem;
- display: flex;
- justify-content: space-between;
- align-items: baseline;
+  background-color: darkgoldenrod;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 nav ul {
- width: 260px;
- display: flex;
- justify-content: space-between;
- font-style: italic;
- color: white;
- list-style-type: none;
- text-decoration: none;
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 nav li {
- font-size: 22px;
- background-color: darkred;
- list-style: none;
+  font-size: 22px;
+  background-color: darkred;
+  list-style: none;
 }
 
 .middle {
- padding: 0 0.8rem;
+  padding: 0 0.8rem;
 }
