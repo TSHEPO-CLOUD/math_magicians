@@ -23,5 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 #linters
-/.eslintrc.json
-/.stylelintrc.json
+.eslintrc.json
+.stylelintrc.json
