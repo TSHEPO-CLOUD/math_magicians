@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot of quote 1`] = `
+<p
+  className="quote"
+>
+  Do not worry too much about your difficulties in mathematics I can assure you that mine are still greater. Pure mathematics is, in its way, the poetry of logical ideas.
+</p>
+`;
