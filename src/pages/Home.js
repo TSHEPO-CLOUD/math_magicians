@@ -4,7 +4,7 @@ import './Home.css';
 export default function Home() {
   return (
     <div className="home-holder">
-      <h2 className="home-title">Welcome to my page!</h2>
+      <h2 className="home-title">Welcome to my app!</h2>
       <p className="home-text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis
         deserunt ut. Expedita delectus, ipsam aperiam iure optio hic praesentium

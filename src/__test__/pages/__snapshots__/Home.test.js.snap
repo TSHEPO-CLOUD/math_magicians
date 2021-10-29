@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot of Home 1`] = `
+<div
+  className="home-holder"
+>
+  <h2
+    className="home-title"
+  >
+    Welcome to my app!
+  </h2>
+  <p
+    className="home-text"
+  >
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis deserunt ut. Expedita delectus, ipsam aperiam iure optio hic praesentium modi repellat in nam ut soluta dolore ex illum nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis deserunt ut. Expedita delectus, ipsam aperiam iure optio hic praesentium modi repellat in nam ut soluta dolore ex illum nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis deserunt ut. Expedita delectus, ipsam aperiam iure optio hic praesentium modi repellat in nam ut soluta dolore ex illum nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis deserunt ut. Expedita delectus, ipsam aperiam iure optio hic praesentium modi repellat in nam ut soluta dolore ex illum nisi.
+  </p>
+</div>
+`;
