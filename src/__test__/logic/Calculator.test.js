@@ -35,6 +35,6 @@ describe('calculator functionality ', () => {
   it('should return the value to 0', () => {
     data = { total: 4, next: 2, operation: 'x' };
     const result = calculator(data, 'AC');
-    expect(result).toBe({ total: null, next: null, operation: null });
+    expect(result).toEqual({ total: null, next: null, operation: null });
   });
 });
