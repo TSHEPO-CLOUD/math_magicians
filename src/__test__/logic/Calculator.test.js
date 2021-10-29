@@ -22,4 +22,18 @@ describe('calculator functionality ', () => {
    const { total } = calculator(data, '=');
    expect(total).toBe('8');
  });
- 
+ it('should return the quotient of two numbers', () => {
+   data = { total: 4, next: 2, operation: '÷' };
+   const { total } = calculator(data, '=');
+   expect(total).toBe('2');
+ });
+ it('should return the rest of two numbers', () => {
+   data = { total: 4, next: 2, operation: '%' };
+   const { total } = calculator(data, '=');
+   expect(total).toBe('0');
+ });
+ it('should return the value to 0', () => {
+   data = { total: 4, next: 2, operation: 'x' };
+   const result = calculator(data, 'AC');
+ });
+})
